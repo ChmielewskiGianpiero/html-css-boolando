@@ -16,11 +16,11 @@
 
 .justify-between{
     justify-content: space-between;
-
 }
 
-.col{
-
+.col-4{
+    flex-basis: calc((100% / 12) * 4);
+    line-height: 100px;
 }
 
 /* debug */
@@ -30,10 +30,19 @@
     padding: 20px;
 }
 
+.debug main [class^='col-']{
+    border: 2px dashed black;
+    padding: 20px;
+}
 
 .debug .header-page{
     background-color: #FF6900;
     min-height: 100px;
+    padding: 20px;
+}
+
+.debug .main-content .col-2{
+    background-color: blueviolet;
     padding: 20px;
 }
 
