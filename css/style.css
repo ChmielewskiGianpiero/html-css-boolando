@@ -18,9 +18,14 @@
     justify-content: space-between;
 }
 
+figure > img {
+	display: block;
+	width: 100%;
+}
+
 .col-4{
     flex-basis: calc((100% / 12) * 4);
-    line-height: 100px;
+    min-height: ;
 }
 
 /* debug */
