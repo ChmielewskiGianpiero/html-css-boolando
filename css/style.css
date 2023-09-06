@@ -10,6 +10,9 @@
     margin: 0 auto;
 }
 
+.container-info-card{
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +23,10 @@
 }
 
 /* MAIN */
+
+main [class^='col-']{
+    padding: 10px;
+}
 
 .main-content{
     margin: 40px 0;
@@ -41,7 +48,7 @@ figure > img {
 .heart-icon{
     position: absolute;
     top: 7px;
-    left: 196px;
+    left: 220px;
     font-size: 28px;
     background-color: white;
     padding: 0 5px;
@@ -72,15 +79,18 @@ figure > img {
     font-size: 12px;
 }
 
+.card .name-item, .card .price{
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+}
+
 /* debug */
 
 .debug .col{
     background-color: aqua;
-    padding: 20px;
-}
-
-main [class^='col-']{
-    border: 2px dashed black;
     padding: 20px;
 }
 
