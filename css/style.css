@@ -18,6 +18,12 @@
     justify-content: space-between;
 }
 
+/* MAIN */
+
+.main-content{
+    margin: 40px 0;
+}
+
 figure > img {
 	display: block;
 	width: 100%;
@@ -25,7 +31,19 @@ figure > img {
 
 .col-4{
     flex-basis: calc((100% / 12) * 4);
-    min-height: ;
+}
+
+.card-image {
+    position: relative;
+}
+
+.heart-icon{
+    position: absolute;
+    top: -372px;
+    left: 192px;
+    font-size: 35px;
+    background-color: white;
+    padding: 0 5px;
 }
 
 /* debug */
@@ -54,4 +72,5 @@ figure > img {
 .debug .footer-page{
     background-color: #1A1A1A;
     min-height: 100px;
+    padding: 20px;
 }
