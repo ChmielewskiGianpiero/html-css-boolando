@@ -4,11 +4,37 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between;
+
+}
+
+.col{
+
+}
+
 /* debug */
+
+.debug .col{
+    background-color: aqua;
+    padding: 20px;
+}
+
 
 .debug .header-page{
     background-color: #FF6900;
     min-height: 100px;
+    padding: 20px;
 }
 
 .debug .footer-page{
