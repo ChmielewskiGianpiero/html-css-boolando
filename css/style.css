@@ -41,7 +41,7 @@
     height: 25px;
 }
 
-.profile{
+.icon-size{
     max-width: 23px;
 }
 
@@ -111,8 +111,17 @@ figure > img {
 }
 
 /* FOOTER */
-    .footer-info span {
-        padding: 0 5px;
+    .col-footer span {
+        padding: 0 5px;   
+    }
+
+    .col-footer img{
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+
+    .col-footer {
+        font-size: 12px;
     }
 
 
