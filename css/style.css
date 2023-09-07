@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;;
+    font-family: Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+    padding: 5px 5px 0;
+    
 }
 
 .container {
@@ -30,10 +37,15 @@
 
 
 /* HEADER */
+.position-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .header-page{
     background-color: #FF6900;
-    padding: 20px;
+    padding: 15px;
 }
 
 .logo{
@@ -52,7 +64,7 @@ main [class^='col-']{
 }
 
 .main-content{
-    margin: 40px 0;
+    margin: 105px 0;
 }
 
 figure > img {
