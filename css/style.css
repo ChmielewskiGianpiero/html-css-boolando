@@ -110,6 +110,15 @@ figure > img {
     color: red;
 }
 
+.overlay{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.card-image:hover .overlay{
+    opacity: 1;
+}
 /* FOOTER */
     .col-footer span {
         padding: 0 5px;   
